@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//反着打印9*9乘法表
+//练习题：反着打印9*9乘法表
 func main() {
 	for i := 1; i < 10; i++ {
 		for j := i; j < 10; j++ {

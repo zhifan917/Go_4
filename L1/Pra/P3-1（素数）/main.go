@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//打印200-1000之间的素数
+//练习题：打印200-1000之间的素数
 func main() {
 	for i := 200; i < 1000; i++ {
 		flag := true
