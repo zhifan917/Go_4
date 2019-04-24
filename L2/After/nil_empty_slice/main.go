@@ -16,5 +16,8 @@ func main() {
 	var d []int
 	fmt.Printf("d为:%v\n", d)
 	fmt.Printf("d的内存地址：%p\n", d)
+	d = append(d, 1)
+	fmt.Printf("After:d为:%v\n", d)
+	fmt.Printf("After:d的内存地址：%p\n", d)
 
 }
