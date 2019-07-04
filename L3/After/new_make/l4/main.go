@@ -20,7 +20,6 @@ func pointer() {
 	fmt.Printf("a=%v b=%v c=%v", a, *b, *c)
 }
 
-// test
 func main() {
 	value()
 	pointer()
