@@ -2,9 +2,10 @@ package main
 
 import "fmt"
 
+// 加密
 func main() {
 	var a *int
-	var b int = 200
+	var b = 200
 
 	a = &b
 	fmt.Printf("value of a %v\n", a)
