@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func value() {
-	var a = 100
+	var a int = 100
 	fmt.Printf("a addr is %p\n", &a)
 	b := a
 	fmt.Printf("b addr is %p\n", &b)
@@ -20,7 +20,8 @@ func pointer() {
 	fmt.Printf("a=%v b=%v c=%v", a, *b, *c)
 }
 
+// test
 func main() {
-	//value()
+	value()
 	pointer()
 }
