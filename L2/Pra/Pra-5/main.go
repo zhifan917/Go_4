@@ -11,7 +11,7 @@ func main() {
 		"kobe":   80,
 		"james":  70,
 		"wade":   200,
-		"cury":   180,
+		"curry":  180,
 	}
 	// 题目： 将m按照key的ASCII顺序打印键值对
 	// 1. 先把key取出来放到切片里面
